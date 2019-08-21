@@ -18,6 +18,7 @@ func main() {
 	}
 
 	// initializes database
+	gin.SetMode(gin.ReleaseMode)
 	db, _ := database.Initialize()
 
 	port := os.Getenv("PORT")
