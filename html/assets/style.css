@@ -23,3 +23,5 @@ ul li:first-child{padding: 0;}
 ul li:after {content: " // ";padding-left: 15px;color: #ffd042;}
 ul li:last-child:after {display: none;}
 ul li:last-child {padding-right: 0;}
+
+@media screen and (max-width: 600px) {body {font: 2.5em/1 Open Sans, Impact;}}
