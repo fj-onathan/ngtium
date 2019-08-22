@@ -1,0 +1,25 @@
+{{ template "header" }}
+
+<body>
+    <section class="content">
+        <h1>
+            <span class="blank">n</span>
+            <span class="blank">g</span>
+            <span class="yellow">t</span>
+            <span class="yellow">i</span>
+            <span class="yellow">u</span>
+            <span class="yellow">m</span>
+        </h1>
+        <p>{{ .description }}</p>
+        <ul>
+            <li>
+                <a rel="noreferrer" href="{{ .github.link }}" target="_blank">{{ .github.name }}</a>
+            </li>
+            <li>
+                <a rel="noreferrer" href="{{ .documentation.link }}" target="_blank">{{ .documentation.name }}</a>
+            </li>
+        </ul>
+    </section>
+</body>
+
+{{ template "footer" }}

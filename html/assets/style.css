@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800,600");
+
+html,body {height: 100%; margin: 0}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1b1b1b;
+    font: 4em/1 Open Sans, Impact;
+}
+
+section.content {text-align: center;}
+
+h1 {display: flex; justify-content: center; margin-bottom: 3rem;}
+h1 span.blank{color: #ffffff;}
+h1 span.yellow{color: #ffd042;}
+p {font: 0.3em/1 Open Sans, Impact;color: #919191;font-weight: 600;}
+
+ul {list-style: none;padding: 0;display: flex;justify-content: center;}
+ul li {font-size: 12px; padding: 0 15px;}
+ul li a{color: #ffffff;font-weight: 600;}
+ul li:first-child{padding: 0;}
+ul li:after {content: " // ";padding-left: 15px;color: #ffd042;}
+ul li:last-child:after {display: none;}
+ul li:last-child {padding-right: 0;}
